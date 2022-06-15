@@ -2,11 +2,9 @@
 
 Study on financial risk analysis based on FIRE movement, using pyscript
 
-https://pyscript.net/
+- https://pyscript.net/
 
-
-https://www.youtube.com/watch?v=Mj47se4FOPk&t=1265s
-
+- https://www.youtube.com/watch?v=Mj47se4FOPk&t=1265s
 
 ## TO-DO
 [x] INSTALAR GNU make
