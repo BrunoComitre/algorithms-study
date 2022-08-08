@@ -1,9 +1,14 @@
-# f.i.r.e.m
+<h1 align="center"> Prometheus </h1>
 
-Study on financial risk analysis based on FIRE movement, using pyscript
+> Study on financial risk analysis based on FIRE movement, using pyscript
+
+> Status: Development 🚧
+
+&nbsp;
+
+## Links
 
 - https://pyscript.net/
-
 - https://www.youtube.com/watch?v=Mj47se4FOPk&t=1265s
 
 ## TO-DO
@@ -16,7 +21,6 @@ Study on financial risk analysis based on FIRE movement, using pyscript
 [ ] ver a necessidade de instalar: poetry add --dev black=="*"
 [ ] ver a necessidade de instalar: poetry add --dev autopep8=="*"
 [ ] ver a necessidade de instalar: poetry add --dev darker=="*" [ver pois é maneiro]
-
 
 ***
 
