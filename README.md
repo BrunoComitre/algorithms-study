@@ -1,6 +1,6 @@
 <h1 align="center"> Prometheus </h1>
 
-> Study on financial risk analysis based on FIRE movement, using pyscript
+> Study on financial risk analysis based on FIRE movement
 
 > Status: Development 🚧
 
