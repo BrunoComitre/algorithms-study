@@ -1,95 +1,37 @@
-<h1 align="center"> Prometheus </h1>
+# Prometheus
 
-> Study on financial risk analysis based on FIRE movement
+> Criando um arquivo de algoritmo por vêz
 
 > Status: Development 🚧
 
-&nbsp;
-
-## Links
-
-- https://pyscript.net/
-- https://www.youtube.com/watch?v=Mj47se4FOPk&t=1265s
-
 ## TO-DO
-[x] INSTALAR GNU make
-[ ] ATUALIZAR CHANGELOG QUANDO FEITO A ESTRUTURA INICIAL
-[ ] ORGANIZAR README.md
-[ ] FAZER O README.rst
-[ ] atualizar pasta docs
-[ ] melhorar settings.json com : https://realpython.com/advanced-visual-studio-code-python/
-[ ] ver a necessidade de instalar: poetry add --dev black=="*"
-[ ] ver a necessidade de instalar: poetry add --dev autopep8=="*"
-[ ] ver a necessidade de instalar: poetry add --dev darker=="*" [ver pois é maneiro]
+- [ ] Criar Algoritmo sobre financial risk analysis based on FIRE movement
+- [ ] Criar Algoritmo de Ordenação Quicksort: Um algoritmo eficiente para classificar uma lista de itens.
+- [ ] Criar Algoritmo de Busca Binária: Usado para procurar um elemento em uma lista ordenada de forma eficiente.
+- [ ] Criar Algoritmo de Dijkstra: Utilizado para encontrar o caminho mais curto em um grafo ponderado.
+- [ ] Criar Algoritmo RSA: Um algoritmo de criptografia de chave pública usado para segurança na internet.
+- [ ] Criar Algoritmo de PageRank: Desenvolvido pelo Google para classificar páginas da web em seu mecanismo de busca.
+- [ ] Criar Algoritmo de Huffman: Usado para compressão de dados, como em arquivos ZIP.
+- [ ] Criar Algoritmo de Fatoração de Inteiros em Números Primos (ex: Pollard's Rho): Importante na criptografia de chave pública.
+- [ ] Criar Algoritmo de Árvore de Decisão (ex: ID3, C4.5): Usado em aprendizado de máquina e mineração de dados.
+- [ ] Criar Algoritmo de Backpropagation: Amplamente usado em redes neurais artificiais para treinamento.
+- [ ] Criar Algoritmo A (A estrela):* Usado em problemas de busca de caminho, como jogos e robótica.
+- [ ] Criar Algoritmo de Euclides: Usado para calcular o máximo divisor comum de dois números inteiros.
+- [ ] Criar Algoritmo de Prim: Usado para encontrar uma árvore geradora mínima em um grafo ponderado.
+- [ ] Criar Algoritmo de Merge Sort: Outro algoritmo de ordenação eficiente.
+- [ ] Criar Algoritmo de Apoio à Decisão (ex: algoritmo de árvore de decisão): Usado em tomada de decisões baseadas em dados.
+- [ ] Criar Algoritmo de Mineração de Associação (ex: Apriori): Usado para descobrir padrões em grandes conjuntos de dados.
+- [ ] **Melhorar README:**
+    - [ ] https://www.writethedocs.org/blog/newsletter-july-2019/?highlight=Readme#readmes-on-readmes-and-other-readme-related-resources
+    - [ ] https://www.makeareadme.com/
+- [ ] **Ler PEPS para melhorar formatação de códigos:**
+    - [ ] https://peps.python.org/
+- [ ] **Melhorar GIT:**
+    - [ ] https://gitfichas.com/
+    - [ ] https://www.toptal.com/developers/gitignore/
 
-***
+## Algoritmos
 
-## FAZER UM BOM README
+- [texto](texto)
 
-- https://www.writethedocs.org/blog/newsletter-july-2019/?highlight=Readme#readmes-on-readmes-and-other-readme-related-resources
-
-- https://www.makeareadme.com/
-
-
-# LER AS PEPS PARA FORMATAR CÓDIGO
-
-- https://peps.python.org/
-
-# APRENDER GIT
-
-- https://gitfichas.com/
-
-- https://www.toptal.com/developers/gitignore/
-
-***
-
-<!-- # USADO PARA O AMBIENTE
-https://blog.pronus.io/posts/python/como-comecar-um-projeto-python-perfeito/#id3
-
-https://blog.pronus.io/posts/python/como-comecar-um-projeto-python-perfeito/#id4
-
-https://github.com/andredias/perfect_python_project/tree/master/%7B%7Bcookiecutter.project_slug%7D%7D
-
-https://blog.pronus.io/posts/python/gerenciamento-de-versoes-ambiente-virtuais-e-dependencias-com-pyenv-e-poetry/ -->
-
- 
-<!-- # Instala a versão
-pyenv install 3.10.4
-# Diz qual versão o projeto irá usar ou o sistema
-pyenv local 3.10.4
-pyenv global 3.10.4 -->
-
-<!-- # Inicia o projeto
-poetry init
-# Inicia o ambiente virtual
-poetry shell
-# Instala pacotes
-poetry add <pacote>
-# Instala pacotes para desenvolvimento
-poetry add --dev <pacote> -->
-
-<!-- # Inicia o controle de versão
-git init
-# Seleciona as mudanças que quer adicionas
-git add -p .
-# Grava as modificações
-git commit -m "Sua Mensagem"
-# Coloca as modificações online
-git push -->
-
-<!-- # Documentar via mkdocs
-poetry add --dev mkdocs
-mkdocs new .
-# cria apasta /docs e o arquivo mkdocs.yml -->
-
-<!-- # Prospector
-poetry add --dev prospector=="*"
-# Roda com o comando
-prospector
-# Executa também a checkagem de docstrings
-prospector --with-tool pep257 -->
-
-<!-- # Test
-poetry add --dev ward=="*" -->
-
-***
+---
