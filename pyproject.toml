@@ -1,51 +1,43 @@
 [tool.poetry]
-name = "firem"
+name = "prometheus"
 version = "0.1.0"
-description = ""
+description = "Firem"
 authors = ["Bruno Alves Comitre <bruno-comitre@hotmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 
-[tool.poetry.dev-dependencies]
-pytest = "*"
-pytest-cov = "*"
-blue = "0.5.2"
-flake8 = "*"
-flake8-debugger = "*"
-flake8-pytest-style = "*"
-isort = "*"
-mypy = "*"
-pep8-naming = "*"
-pyupgrade = "*"
-bandit = "*"
-pip-audit = "*"
-mkdocs = "*"
-prospector = "*"
-pylint = "*"
-pylint-quotes = "*"
-pydocstyle = "*"
-radon = "*"
-vulture = "*"
-eradicate = "*"
-pyflakes = "*"
-mccabe = "*"
-yapf = "*"
+
+[tool.poetry.group.doc.dependencies]
+mkdocs-material = "^9.3.1"
+mkdocstrings = "^0.23.0"
+mkdocstrings-python = "^1.7.0"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+isort = "^5.12.0"
+taskipy = "^1.12.0"
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = "--doctest-modules"
 
 [tool.isort]
 profile = "black"
-line_length = 100
+line_lenght = 79
 
-[tool.blue]
-line-length = 100
-
-[tool.pytest.ini_options]
-filterwarnings = ["ignore::DeprecationWarning"]
-
-[tool.mypy]
-ignore_missing_imports = true
-disallow_untyped_defs = true
-
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[tool.taskipy.tasks]
+lint = "blue --check --diff . && isort --check --diff ."
+docs = "mkdocs serve"
+run = "poetry run python app/main.py"
+pre_test = "task lint"
+test = "pytest -s -x --cov=Klinks -vv"
+post_test = "coverage html"
