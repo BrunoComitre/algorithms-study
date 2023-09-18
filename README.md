@@ -1,35 +1,35 @@
 # Prometheus
 
-> Criando um arquivo de algoritmo por vêz
+> Creating one algorithm file at a time
 
 ## TO-DO
-- [ ] Criar Algoritmo sobre financial risk analysis based on FIRE movement
-- [ ] Criar Algoritmo de Ordenação Quicksort: Um algoritmo eficiente para classificar uma lista de itens.
-- [ ] Criar Algoritmo de Busca Binária: Usado para procurar um elemento em uma lista ordenada de forma eficiente.
-- [ ] Criar Algoritmo de Dijkstra: Utilizado para encontrar o caminho mais curto em um grafo ponderado.
-- [ ] Criar Algoritmo RSA: Um algoritmo de criptografia de chave pública usado para segurança na internet.
-- [ ] Criar Algoritmo de PageRank: Desenvolvido pelo Google para classificar páginas da web em seu mecanismo de busca.
-- [ ] Criar Algoritmo de Huffman: Usado para compressão de dados, como em arquivos ZIP.
-- [ ] Criar Algoritmo de Fatoração de Inteiros em Números Primos (ex: Pollard's Rho): Importante na criptografia de chave pública.
-- [ ] Criar Algoritmo de Árvore de Decisão (ex: ID3, C4.5): Usado em aprendizado de máquina e mineração de dados.
-- [ ] Criar Algoritmo de Backpropagation: Amplamente usado em redes neurais artificiais para treinamento.
-- [ ] Criar Algoritmo A (A estrela):* Usado em problemas de busca de caminho, como jogos e robótica.
-- [ ] Criar Algoritmo de Euclides: Usado para calcular o máximo divisor comum de dois números inteiros.
-- [ ] Criar Algoritmo de Prim: Usado para encontrar uma árvore geradora mínima em um grafo ponderado.
-- [ ] Criar Algoritmo de Merge Sort: Outro algoritmo de ordenação eficiente.
-- [ ] Criar Algoritmo de Apoio à Decisão (ex: algoritmo de árvore de decisão): Usado em tomada de decisões baseadas em dados.
-- [ ] Criar Algoritmo de Mineração de Associação (ex: Apriori): Usado para descobrir padrões em grandes conjuntos de dados.
-- [ ] **Melhorar README:**
+- [ ] Create Algorithm on financial risk analysis based on FIRE movement
+- [x] Create Quicksort Sorting Algorithm: An efficient algorithm for sorting a list of items.
+- [ ] Create Binary Search Algorithm: Used to efficiently search for an element in a sorted list.
+- [ ] Create Dijkstra Algorithm: Used to find the shortest path in a weighted graph.
+- [ ] Create RSA Algorithm: A public key cryptography algorithm used for internet security.
+- [ ] Create PageRank Algorithm: Developed by Google to rank web pages in its search engine.
+- [ ] Create Huffman Algorithm: Used for data compression, such as in ZIP files.
+- [ ] Create an Algorithm for Factoring Integers into Prime Numbers (e.g. Pollard's Rho): Important in public key cryptography.
+- [ ] Create Decision Tree Algorithm (e.g. ID3, C4.5): Used in machine learning and data mining.
+- [ ] Create Backpropagation Algorithm: Widely used in artificial neural networks for training.
+- [ ] Create Algorithm A (The Star):* Used in pathfinding problems, such as games and robotics.
+- [ ] Create Euclid's Algorithm: Used to calculate the maximum common divisor of two integers.
+- [ ] Create Prim's Algorithm: Used to find a minimum spanning tree in a weighted graph.
+- [ ] Create Merge Sort Algorithm: Another efficient sorting algorithm.
+- [ ] Create Decision Support Algorithm (e.g. decision tree algorithm): Used in data-driven decision making.
+- [ ] Create Association Mining Algorithm (e.g. Apriori): Used to discover patterns in large data sets.
+- [ ] **Improve README:**
     - [ ] https://www.writethedocs.org/blog/newsletter-july-2019/?highlight=Readme#readmes-on-readmes-and-other-readme-related-resources
     - [ ] https://www.makeareadme.com/
-- [ ] **Ler PEPS para melhorar formatação de códigos:**
+- [ ] **Read PEPS to improve code formatting:**
     - [ ] https://peps.python.org/
-- [ ] **Melhorar GIT:**
+- [ ] **Improve GIT:**
     - [ ] https://gitfichas.com/
     - [ ] https://www.toptal.com/developers/gitignore/
 
-## Algoritmos
+## Algorithms
 
-- [texto](texto)
+- [text](text)
 
 ---
