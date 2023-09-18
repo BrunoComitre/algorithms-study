@@ -2,8 +2,6 @@
 
 > Criando um arquivo de algoritmo por vêz
 
-> Status: Development 🚧
-
 ## TO-DO
 - [ ] Criar Algoritmo sobre financial risk analysis based on FIRE movement
 - [ ] Criar Algoritmo de Ordenação Quicksort: Um algoritmo eficiente para classificar uma lista de itens.
