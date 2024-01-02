@@ -28,8 +28,4 @@
     - [ ] https://gitfichas.com/
     - [ ] https://www.toptal.com/developers/gitignore/
 
-## Algorithms
-
-- [text](text)
-
 ---
